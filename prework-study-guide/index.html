@@ -35,8 +35,22 @@
         <h2>Git</h2>
         <ul>
           <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git checkout -b branch-name: creates a new branch and switches to it</li>          
         </ul>
+        <h3>Pushing changes to Git</h3>
+        <ol>
+          <p>Make sure you are on the correct branch.</p>
+          <li>git status</li>
+          <p>We use the "add -A" command to commit all files in the working branch.</p>
+          <li>git add -A</li>
+          <p>We use the -m flag to associate a message with our commit. Commit messages should be short descriptive messages of the changes implemented. Once completed, our Git repository is now up to date with our working directory!</p>
+          <li>git commit -m "brief description of changes via commit text"</li>
+          <p>Make sure our current Branch is Up to Date</p>
+          <li>git pull origin main</li>
+          <p>It is a good habit to always pull the base branch into your feature branch before pushing up any code.</p>
+          <p>Push all Changes</p>
+          <li>git push origin "branch"</li>
+        </ol>
       </section>
    
       <section class="card" id="javascript-section">
