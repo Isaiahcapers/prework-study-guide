@@ -42,23 +42,38 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>          
+          <li id="git-cmd">git status</li>
+            <ul>
+              <li>Checks what branch we are currently on</li>
+            </ul>
+          <li id="git-cmd">git checkout -b "branch-name"</li>
+            <ul>
+              <li>Creates a new branch and switches to it</li>
+            </ul>          
         </ul>
-        <h3>Pushing changes to Git</h3>
-        <ul>
-          <li>Make sure you are on the correct branch.</li>
-          <li>git status</li>
-          <li>We use the "add -A" command to commit all files in the working branch.</li>
-          <li>git add -A</li>
-          <li>We use the -m flag to associate a message with our commit. Commit messages should be short descrilitive messages of the changes implemented. Once completed, our Git repository is now up to date with our working directory!</li>
-          <li>git commit -m "brief description of changes via commit text"</li>
-          <li>Make sure our current Branch is Up to Date</li>
-          <li>git pull origin main</li>
-          <li>It is a good habit to always pull the base branch into your feature branch before pushing up any code.</li>
-          <li>Push all Changes</li>
-          <li>git push origin "branch"</li>
-        </ul>
+        <br>
+        <h3>Pushing Changes To Git</h3>
+          <ul id="git-list">
+            <li id="git-cmd">git status</li>
+              <ul>
+                <li>Make sure you are on the correct branch.</li>
+              </ul>
+            <li id="git-cmd">git add -A</li>
+              <ul>
+                <li>We use the "add -A" command to commit all files in the working branch.</li>
+            </ul>
+          <li id="git-cmd">git commit -m "brief description of changes via commit text"</li>
+            <ul>
+                <li>We use the -m flag to associate a message with our commit. Commit messages should be short descrilitive messages of the changes implemented. Once completed, our Git repository is now up to date with our working directory!</li>
+            </ul>
+            <li id="git-cmd">git pull origin main</li>
+              <ul>
+                <li>It is a good habit to always pull the base branch into your feature branch before pushing up any code.</li>
+              </ul>  
+            <li id="git-cmd">git push origin "branch"</li>
+              <ul><li>Push all Changes</li>
+              </ul>
+          </ul>
       </section>
    
       <section class="card" id="javascript-section">
@@ -69,6 +84,10 @@
           <li>put "/* & */ before and after the block of code to comment out multiple lines without deleting.</li>
           <li>A for loop contains 3 important statements, the starting point, condition, and the final statement.</li>
           <li>Example: for(starting point; condition; finalstatemnt) then {to run the code}</li>
+          <li>To delcare a function we use the function keyword and the give our funtion a unique name followed by paraentheses. Then we add curly braces that contain the code for the teask we want to perform.</li>
+          <li>To call a function, we use the name of the function in our Javascript File where we want the code to execute. </li>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
         </ul>
       </section>
     </main>
